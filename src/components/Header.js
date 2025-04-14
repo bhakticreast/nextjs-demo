@@ -20,7 +20,7 @@ const Header = () => {
                         transition={{ duration: 0.5 }}
                     >
                         <Link href="/" className="flex items-center">
-                            <Image src="/Logo.png" width={200} height={200} alt="Hero" />
+                            <Image src="/logo.png" width={200} height={200} alt="Hero" />
                         </Link>
                     </motion.div>
 

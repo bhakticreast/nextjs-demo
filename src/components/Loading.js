@@ -14,7 +14,7 @@ export default function Loading() {
           duration: 2,
           repeat: Infinity,
         }}
-        src="/Logo_icon.png"
+        src="/logo_icon.png"
         alt="Loading..."
         width={80}
         height={80}
