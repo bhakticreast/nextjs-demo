@@ -252,51 +252,13 @@ export default function HomePage() {
                             <Btn>Learn More</Btn>
                         </div>
                     </section>
-
-                    {/* Second Section - Stats Highlight */}
-                    {/* <section className="py-16 px-4 md:px-10 bg-gray-50">
-                            <div className="flex flex-col md:flex-row items-center">
-                                <div className="md:w-1/3 mb-8 md:mb-0">
-                                    <h2 className="text-3xl font-bold text-gray-800 mb-2">
-                                        Helping a local
-                                        <span className="block text-green-500">business reinvent itself</span>
-                                    </h2>
-                                    <p className="text-gray-600">
-                                        We reached here with our hard work and dedication
-                                    </p>
-                                </div>
-                                <div className="md:w-2/3 grid grid-cols-2 gap-8">
-                                    {stats.map((stat) => (
-                                        <motion.div
-                                            key={stat.id}
-                                            className="flex items-center"
-                                            initial={{ opacity: 0, y: 20 }}
-                                            whileInView={{ opacity: 1, y: 0 }}
-                                            transition={{ duration: 0.5, delay: stat.id * 0.2 }}
-                                        >
-                                            <div className="mr-4 flex-shrink-0">
-                                                <Image
-                                                    src={stat.icon}
-                                                    alt={stat.label}
-                                                    width={40}
-                                                    height={40}
-                                                    className="text-green-500"
-                                                />
-                                            </div>
-                                            <div>
-                                                <p className="text-2xl font-bold text-gray-800">
-                                                    <AnimatedCounter value={parseInt(stat.count.replace(/,/g, ''))} />
-                                                </p>
-                                                <p className="text-gray-600">{stat.label}</p>
-                                            </div>
-                                        </motion.div>
-                                    ))}
-                                </div>
-                            </div>
-                        </section> */}
+                </div>
+            </section>
+            <section className="container mx-auto bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-10">
                         <div className="flex flex-col md:flex-row items-center">
-                            <div className="md:w-1/3 mb-8 md:mb-0">
+                            <div className="md:w-2/3 mb-8 md:mb-0">
                                 <h2 className="text-3xl font-bold text-gray-800 mb-2">
                                     Helping a local
                                     <span className="block text-green-500">business reinvent itself</span>
@@ -328,8 +290,10 @@ export default function HomePage() {
                             </div>
                         </div>
                     </section>
-
-                    {/* Third Section - Footer Design */}
+                </div>
+            </section>
+            <section className="container mx-auto">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
                             <motion.img
@@ -346,13 +310,6 @@ export default function HomePage() {
                                 src="/pana.png"
                                 alt="Mobile phone with website footer design"
                             />
-                            {/* <Image
-                                    src="/pana.png"
-                                    alt="Mobile phone with website footer design"
-                                    width={500}
-                                    height={400}
-                                    className="object-contain"
-                                /> */}
                         </div>
                         <div className="md:w-1/2 mt-8 md:mt-0">
                             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
