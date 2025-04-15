@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="mb-6">
                 <Link href="/" className="flex items-center">
                   <Image
-                    src="/Logo_white.png"
+                    src="/logo_white.png"
                     alt="Nexcent Logo"
                     width={150}
                     height={40}
