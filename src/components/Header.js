@@ -25,7 +25,7 @@ const Header = () => {
                     </motion.div>
 
                     {/* Desktop Navigation with animations */}
-                    <div className="hidden md:flex md:items-center md:space-x-10 text-[16px]">
+                    <div className="hidden lg:flex md:items-center md:space-x-10 text-[16px]">
                         {['Home', 'Service', 'Feature', 'Product', 'Testimonial', 'FAQ'].map((item) => (
                             <motion.div
                                 key={item}
@@ -48,7 +48,7 @@ const Header = () => {
                     </div>
 
                     {/* Auth Buttons with animations */}
-                    <div className="hidden md:flex md:items-center md:space-x-4 text-[14px]">
+                    <div className="hidden lg:flex md:items-center md:space-x-4 text-[14px]">
                         <motion.div whileHover={{ scale: 1.05 }}>
                             <Link href="/login" className="text-green-500 hover:text-green-600">Login</Link>
                         </motion.div>
@@ -76,7 +76,7 @@ const Header = () => {
 
                     {/* Mobile menu button with animation */}
                     <motion.div
-                        className="md:hidden"
+                        className="lg:hidden"
                         whileTap={{ scale: 0.9 }}
                     >
                         <button
@@ -109,7 +109,7 @@ const Header = () => {
                 <AnimatePresence>
                     {isMenuOpen && (
                         <motion.div
-                            className="md:hidden py-4"
+                            className="lg:hidden py-4"
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: 'auto' }}
                             exit={{ opacity: 0, height: 0 }}
