@@ -51,19 +51,19 @@ export default function HomePage() {
         {
             id: 1,
             title: 'Membership Organisations',
-            icon: '/icon1.png',
+            icon: '/Icon1.png',
             description: 'Our membership management software provides full automation of membership renewals and payments'
         },
         {
             id: 2,
             title: 'National Associations',
-            icon: '/icon2.png',
+            icon: '/Icon2.png',
             description: 'Our membership management software provides full automation of membership renewals and payments'
         },
         {
             id: 3,
             title: 'Clubs And Groups',
-            icon: '/icon3.png',
+            icon: '/Icon3.png',
             description: 'Our membership management software provides full automation of membership renewals and payments'
         }
     ];
