@@ -175,7 +175,7 @@ export default function HomePage() {
                 </div>
             </motion.section>
 
-            <section className="container bg-gray mx-auto px-4">
+            <section className="container bg-white mx-auto px-4">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Clients Section */}
                     <section className="py-16 text-center">
@@ -197,7 +197,7 @@ export default function HomePage() {
                     </section>
 
                     {/* Community Management Section */}
-                    <section className="py-16">
+                    <section className="py-16 bg-white">
                         <div className="text-center mb-16">
                             <h2 className="text-4xl font-semibold text-gray-700 mb-4">
                                 Manage your entire community<br />in a single system
@@ -225,7 +225,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className="container mx-auto">
+            <section className="container mx-auto bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* First Section - Pixelgrade Experience */}
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
@@ -292,7 +292,7 @@ export default function HomePage() {
                     </section>
                 </div>
             </section>
-            <section className="container mx-auto">
+            <section className="container mx-auto bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
@@ -391,8 +391,8 @@ export default function HomePage() {
                     </section>
 
                     {/* Blog Section */}
-                    <section className="py-16 mb-16">
-                        <div className="container mx-auto px-4">
+                    <section className="py-16 bg-white">
+                        <div className="container mx-auto px-4 mb-12">
                             <div className="text-center mb-12">
                                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
                                     Caring is the new marketing
@@ -408,9 +408,9 @@ export default function HomePage() {
                         </div>
                     </section>
 
-                    <section className="container mx-auto text-center">
+                    <section className="container mx-auto text-center bg-white">
                         <div className="px-4 bg-gray-50 py-16">
-                            <div className="mb-12 font-bold text-5xl">
+                            <div className="mb-12 text-5xl text-gray-700">
                                 We have our demo
                             </div>
                             <Btn href="/blog/safeguarding-processes" appendClass="inline-flex items-center">Get a Demo <ArrowRight /></Btn>

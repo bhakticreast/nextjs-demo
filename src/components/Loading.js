@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function Loading() {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen bg-white">
       <motion.img
         initial={{ y: -10 }}
         animate={{ y: 10 }}
