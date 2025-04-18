@@ -174,9 +174,9 @@ export default function HomePage() {
                     </div>
                 </div>
             </motion.section>
-
+            
             <section className="bg-white mx-auto px-4">
-                <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Clients Section */}
                     <section className="py-16 text-center">
                         <h2 className="text-4xl font-semibold text-gray-700 mb-4">Our Clients</h2>
@@ -338,8 +338,8 @@ export default function HomePage() {
             >
                 <div className="w-full mx-auto">
                     {/* Testimonial Section */}
-                    <section className="container bg-gray-50 py-16">
-                        <div className="px-4">
+                    <section className="mx-auto bg-gray-50 py-16">
+                        <div className="container mx-auto px-4">
                             <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto">
                                 {/* Tesla Logo / Testimonial Image */}
                                 <div className="md:w-1/3 mb-8 md:mb-0">
@@ -408,8 +408,8 @@ export default function HomePage() {
                         </div>
                     </section>
 
-                    <section className="mx-auto text-center bg-white">
-                        <div className="container px-4 bg-gray-50 py-16">
+                    <section className="text-center bg-gray-50">
+                        <div className="container mx-auto px-4 py-16">
                             <div className="mb-12 text-5xl text-gray-700">
                                 We have our demo
                             </div>
