@@ -175,8 +175,8 @@ export default function HomePage() {
                 </div>
             </motion.section>
 
-            <section className="container bg-white mx-auto px-4">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section className="bg-white mx-auto px-4">
+                <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Clients Section */}
                     <section className="py-16 text-center">
                         <h2 className="text-4xl font-semibold text-gray-700 mb-4">Our Clients</h2>
@@ -225,8 +225,8 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className="container mx-auto bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section className="mx-auto bg-white">
+                <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* First Section - Pixelgrade Experience */}
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
@@ -254,8 +254,8 @@ export default function HomePage() {
                     </section>
                 </div>
             </section>
-            <section className="container mx-auto bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section className="mx-auto bg-gray-50">
+                <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-10">
                         <div className="flex flex-col md:flex-row items-center">
                             <div className="md:w-2/3 mb-8 md:mb-0">
@@ -292,8 +292,8 @@ export default function HomePage() {
                     </section>
                 </div>
             </section>
-            <section className="container mx-auto bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section className="mx-auto bg-white">
+                <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
                             <motion.img
@@ -334,11 +334,11 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="container mx-auto"
+                className="mx-auto"
             >
                 <div className="w-full mx-auto">
                     {/* Testimonial Section */}
-                    <section className="bg-gray-50 py-16">
+                    <section className="container bg-gray-50 py-16">
                         <div className="px-4">
                             <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto">
                                 {/* Tesla Logo / Testimonial Image */}
