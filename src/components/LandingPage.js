@@ -408,8 +408,8 @@ export default function HomePage() {
                         </div>
                     </section>
 
-                    <section className="container mx-auto text-center bg-white">
-                        <div className="px-4 bg-gray-50 py-16">
+                    <section className="mx-auto text-center bg-white">
+                        <div className="container px-4 bg-gray-50 py-16">
                             <div className="mb-12 text-5xl text-gray-700">
                                 We have our demo
                             </div>
