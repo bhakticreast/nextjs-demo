@@ -115,7 +115,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="py-12 md:py-20 bg-gray-50 overflow-hidden">
+                className="w-full py-12 md:py-20 bg-gray-50 overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Slider container */}
                     <div className="relative overflow-hidden">
@@ -175,7 +175,7 @@ export default function HomePage() {
                 </div>
             </motion.section>
 
-            <section className="container bg-white mx-auto px-4">
+            <section className="w-full bg-white mx-auto px-4">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* Clients Section */}
                     <section className="py-16 text-center">
@@ -225,7 +225,7 @@ export default function HomePage() {
                 </div>
             </section>
 
-            <section className="container mx-auto bg-white">
+            <section className="w-full mx-auto bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     {/* First Section - Pixelgrade Experience */}
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
@@ -254,7 +254,7 @@ export default function HomePage() {
                     </section>
                 </div>
             </section>
-            <section className="container mx-auto bg-gray-50">
+            <section className="w-full mx-auto bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-10">
                         <div className="flex flex-col md:flex-row items-center">
@@ -292,7 +292,7 @@ export default function HomePage() {
                     </section>
                 </div>
             </section>
-            <section className="container mx-auto bg-white">
+            <section className="w-full mx-auto bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <section className="py-16 px-4 md:px-0 flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2">
@@ -334,7 +334,7 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="container mx-auto"
+                className="w-full mx-auto"
             >
                 <div className="w-full mx-auto">
                     {/* Testimonial Section */}
@@ -392,7 +392,7 @@ export default function HomePage() {
 
                     {/* Blog Section */}
                     <section className="py-16 bg-white">
-                        <div className="container mx-auto px-4 mb-12">
+                        <div className="w-full mx-auto px-4 mb-12">
                             <div className="text-center mb-12">
                                 <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
                                     Caring is the new marketing
@@ -408,7 +408,7 @@ export default function HomePage() {
                         </div>
                     </section>
 
-                    <section className="container mx-auto text-center bg-white">
+                    <section className="w-full mx-auto text-center bg-white">
                         <div className="px-4 bg-gray-50 py-16">
                             <div className="mb-12 text-5xl text-gray-700">
                                 We have our demo
