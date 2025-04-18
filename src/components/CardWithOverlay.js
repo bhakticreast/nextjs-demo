@@ -28,43 +28,43 @@ export default function CardWithOverlay() {
     ];
 
     return (
-        <div className="grid md:grid-cols-3 md:gap-8 gap-24 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
             {blogPosts.map((post) => (
-            <div className="relative w-full max-w-sm mx-auto" key={post.id}>
-                {/* Image */}
-                <motion.div
-                    animate={{
-                        boxShadow: ['0px 0px 0px rgba(34, 197, 94, 0)', '0px 0px 25px rgba(34, 197, 94, 0.5)', '0px 0px 0px rgba(34, 197, 94, 0)']
-                    }}
-                    className="relative w-full h-64 rounded-xl overflow-hidden shadow-md"
-                    transition={{
-                        duration: 2,
-                        repeat: Infinity,
-                        repeatType: "loop"
-                    }}
-                >
-                    <Image
-                        src={post.image}
-                        alt="Person using laptop"
-                        fill
-                        className="object-cover"
-                    />
-                </motion.div>
-
-                {/* Overlay Text Block */}
-                <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 w-[90%] bg-white p-4 rounded-xl shadow-lg text-center">
-                    <h2 className="text-gray-800 text-base font-medium mb-3 leading-snug h-18">
-                        {post.title}
-                    </h2>
-                    <Link
-                        href={post.link}
-                        className="text-green-600 font-semibold inline-flex items-center justify-center gap-1 hover:underline"
+                <div className="relative w-full max-w-sm mx-auto pb-20" key={post.id}>
+                    {/* Image Container */}
+                    <motion.div
+                        animate={{
+                            boxShadow: ['0px 0px 0px rgba(34, 197, 94, 0)', '0px 0px 25px rgba(34, 197, 94, 0.5)', '0px 0px 0px rgba(34, 197, 94, 0)']
+                        }}
+                        className="relative w-full h-64 rounded-xl overflow-hidden shadow-md"
+                        transition={{
+                            duration: 2,
+                            repeat: Infinity,
+                            repeatType: "loop"
+                        }}
                     >
-                        Read more
-                        <ArrowRight />
-                    </Link>
+                        <Image
+                            src={post.image}
+                            alt="Person using laptop"
+                            fill
+                            className="object-cover"
+                        />
+                    </motion.div>
+
+                    {/* Overlay Text Block */}
+                    <div className="absolute left-1/2 bottom-0 transform -translate-x-1/2 w-[90%] bg-white p-6 rounded-xl shadow-lg text-center min-h-[150px] flex flex-col justify-between">
+                        <h2 className="text-gray-800 text-base font-medium mb-3 leading-snug line-clamp-5">
+                            {post.title}
+                        </h2>
+                        <Link
+                            href={post.link}
+                            className="text-green-600 font-semibold inline-flex items-center justify-center gap-1 hover:underline mt-auto"
+                        >
+                            Read more
+                            <ArrowRight />
+                        </Link>
+                    </div>
                 </div>
-            </div>
             ))}
         </div>
     );
